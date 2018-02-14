@@ -95,7 +95,7 @@ export ARCHFLAGS="-arch x86_64"
 # export VISUAL=vim
 # conflict with some other completion?
 # source /usr/share/nvm/init-nvm.sh
-# source $HOME/.nvm/init-nvm.sh
+source $HOME/.nvm/init-nvm.sh
 # source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/share/antigen.zsh
 
@@ -103,6 +103,7 @@ antigen use oh-my-zsh
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle mafredri/zsh-async
 antigen bundle sindresorhus/pure
+antigen bundle rupa/z
 antigen apply
 
 ptx-check() {
@@ -135,7 +136,3 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
