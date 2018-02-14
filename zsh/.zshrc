@@ -97,14 +97,16 @@ export ARCHFLAGS="-arch x86_64"
 # source /usr/share/nvm/init-nvm.sh
 # source $HOME/.nvm/init-nvm.sh
 # source $ZSH/oh-my-zsh.sh
+export ADOTDIR="$HOME/.antigen"
+#export ANTIGEN_LOG="/tmp/antigen.log"
 source /usr/share/zsh/share/antigen.zsh
-
-antigen use oh-my-zsh
-antigen bundle zsh-users/zsh-syntax-highlighting
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
-antigen bundle rupa/z
-antigen apply
+source $HOME/antigen.zsh
+#antigen use oh-my-zsh
+#antigen bundle zsh-users/zsh-syntax-highlighting
+#antigen bundle mafredri/zsh-async
+#antigen bundle sindresorhus/pure
+#antigen bundle rupa/z
+#antigen apply
 
 ptx-check() {
   java\
