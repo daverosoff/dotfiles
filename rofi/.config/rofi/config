@@ -64,6 +64,10 @@ rofi.click-to-exit: false
 ! rofi.terminal: rofi-sensible-terminal
 rofi.terminal: terminator --borderless
 
+! Font to use [dwr]
+! rofi.font: Monospace 10
+rofi.font: Noto Sans 10
+
 ! THEMING
 ! ----------------------------------------------------------------------------
 
