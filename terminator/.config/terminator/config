@@ -15,8 +15,8 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#000000"
-    foreground_color = "#aaaaaa"
+    background_color = "#111111"
+    foreground_color = "#bbbbbb"
     copy_on_selection = True
     cursor_color = "#aaaaaa"
     cursor_shape = ibeam
