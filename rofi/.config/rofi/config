@@ -26,7 +26,7 @@ rofi.scroll-method: 0
 ! - regex: Match a regex input.
 ! - glob: Match a glob pattern.
 ! - fuzzy: Do a fuzzy match.
-rofi.matching: fuzzy 
+rofi.matching: normal
 
 ! Disable history in run/ssh
 rofi.disable-history: false
@@ -38,7 +38,7 @@ rofi.tokenize: true
 rofi.auto-select: false
 
 ! When searching sort the result based on levenshtein distance.
-rofi.levenshtein-sort: true 
+rofi.levenshtein-sort: false 
 
 ! Select monitor to display rofi on.
 ! As input it accepts: primary (if primary output is set), the xrandr output name or integer number (in order of detection). Negative numbers are handled differently:
