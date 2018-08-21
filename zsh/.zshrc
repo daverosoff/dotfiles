@@ -90,6 +90,7 @@ export ARCHFLAGS="-arch x86_64"
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
+alias gg='g++ -Wall -Werror -Wfatal -pedantic -std=c++2a'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # export VISUAL=vim
