@@ -89,8 +89,8 @@ export ARCHFLAGS="-arch x86_64"
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-alias gg='g++ -Wall -Werror -Wfatal -pedantic -std=c++2a'
+# Examplr aliases
+alias gg='g++ -Wall -Werror -Wfatal-errors -pedantic -std=c++2a'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # export VISUAL=vim
